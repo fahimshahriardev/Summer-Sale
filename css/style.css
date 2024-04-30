@@ -1,0 +1,311 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.banner-container{
+    background-color: #F9F6E2;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.banner-text{
+    color: #111;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 600;
+}
+.banner-head{
+    color: #111;
+text-align: center;
+font-size: 3.625rem;
+font-weight: 700;
+margin: 50px 0px;
+}
+.banner-fancy-text{
+    color: #E527B2;
+font-size: 3.625rem;
+font-weight: 700;
+}
+.banner-promo-text{
+    color: #111;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.coupon-btn{
+    color: #FFF;
+text-align: center;
+font-size: 1.5rem;
+font-weight: 600;
+background-color:#E527B2;
+border-radius: 0.5rem;
+padding: 20px;
+}
+.product-section-title{
+    color: #111;
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 50px;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+.cstm-star{
+    color: #FFC107;
+}
+
+.product-title{
+    color: #111;
+font-size: 1.25rem;
+font-weight: 600;
+}
+.product-price{
+    color: rgba(17, 17, 17, 0.50);
+font-size: 1.25rem;
+font-weight: 400;
+}
+.product-container{
+    text-align: center;
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+.image-bg{
+    background-color: #F3F3F3;
+    padding: 20px 35px;
+    margin-bottom: 15px
+}
+
+.product-main{
+    background-color: #F8F8F8;
+}
+.product-section{
+    padding: 50px 0px;
+    
+}
+
+
+.coupon-text{
+    color: #111;
+font-family: Work Sans;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.coupon-section{
+    background-color: white;
+    padding: 20px;
+}
+
+
+.btn-primary {
+    background: #E527B2;
+    border: 1px solid #E527B2;
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 5px 10px;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #717171;
+    border-color: #717171;
+}
+.btn-primary.disabled:hover, .btn-primary:disabled:hover {
+    color: #fff;
+    background-color: #717171;
+    border-color: #717171;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ff00e2;
+    border-color: #ff00e2;
+}
+.coupon-field{
+    
+        border: 1px solid gray;
+        width: 50%;
+        padding: 5px;
+    
+}
+.added-products{
+    color: #111;
+font-family: Work Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: bold;
+
+}
+.added-price{
+    color: rgba(17, 17, 17, 0.50);
+font-family: Work Sans;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 3rem;
+}
+.total-text{
+    color: #111;
+font-family: Work Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: bold;
+line-height: 3rem; 
+}
+.calculation-section{
+    margin-top: 100px;
+}
+.calculation-area{
+    background-color: white;
+    padding: 20px;
+}
+
+.modal-head{
+    color: #111;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.modal-text{
+    color: rgba(17, 17, 17, 0.50);
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+    text-align: center;
+}
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: center;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+/* Media Query*/
+@media (min-width: 320px) and (max-width: 576px) { 
+
+
+    .product-section {
+        padding: 50px 20px;
+    }
+    .product-section-title {     
+       font-size: 1.5rem;       
+    }
+    .product-title {  
+        font-size: 1rem;
+    }
+
+    .coupon-text {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .coupon-field { 
+        width: 100%;
+        margin-bottom: 10px;  
+    }
+    .added-products {
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .product-container {
+        margin-bottom: 20px;
+    }
+    .purchase-btn{
+        margin-left: -20px;
+    }
+    .banner-head {
+        color: #111;
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 50px 0px;
+    }
+    .btn-primary{
+        width: 100%;
+        font-size: 15px;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 770px) { 
+
+    .product-section {
+        padding: 50px 20px;
+    }
+    .banner-head {
+        font-size: 1.5rem;
+       
+    }
+
+    .product-section-title {
+        font-size: 1.5rem;
+    }
+    .product-title {
+        font-size: 0.8rem;
+    }
+    .coupon-text {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .coupon-field {
+        border: 1px solid gray;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .added-products {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .total-text {
+
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 0.5rem;
+    }
+    .added-price {
+        color: rgba(17, 17, 17, 0.50);
+        font-family: Work Sans;
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2rem;
+    }
+    .btn-primary{
+        width: 100%;
+        font-size: 12px;
+    }
+    .purchase-btn{
+        width: 100%;
+        font-size: 12px;
+    }
+    .btn-primary.disabled, .btn-primary:disabled {
+        color: #fff;
+        background-color: #717171;
+        border-color: #717171;
+        width: 100%;
+        font-size: 12px;
+    }
+}
